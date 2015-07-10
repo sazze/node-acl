@@ -1,0 +1,27 @@
+{
+  "name": "@sazze/acl",
+  "version": "1.0.0",
+  "description": "Access Control Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.sazze.com:nodejs/acl.git"
+  },
+  "keywords": [
+    "Access",
+    "Control",
+    "ACL"
+  ],
+  "author": "Kevin Smithson <ksmithson@sazze.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}
