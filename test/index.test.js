@@ -48,4 +48,11 @@ describe('acl', function() {
 
   });
 
+  describe('getLevelDetailsById()', function() {
+    it('should get details', function() {
+      let details = acl.getLevelDetailsById(15);
+      details.name.should.eql('Admin');
+    });
+  })
+
 });

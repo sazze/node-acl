@@ -78,7 +78,7 @@ class ACL {
    * @returns {*}
    */
   getLevelDetailsById(level) {
-    return this.LEVELS[this.reverseLevels[level]];
+    return this.config[this.reverseLevels[level]];
   }
 
 
