@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.sazze.com:nodejs/acl.git"
+    "url": "git@github.com:sazze/node-acl.git"
   },
   "keywords": [
     "Access",
@@ -23,6 +23,5 @@
   "devDependencies": {
     "mocha": "^2.2.5",
     "should": "^7.0.2"
-  },
-  "publishConfig": "http://npm.sazze.com"
+  }
 }
